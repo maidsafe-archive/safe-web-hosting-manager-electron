@@ -12,9 +12,9 @@ const optionDefinitions = [
 ]
 
 const options = commandLineArgs(optionDefinitions)
-const pkg = require(`./${options.example}/package.json`);
+const pkg = require(`./package.json`);
 
-let targetDir = path.resolve( __dirname, options.example, 'release');
+let targetDir = path.resolve( __dirname, 'release');
 
 const platform = process.platform;
 const OSX = 'darwin';

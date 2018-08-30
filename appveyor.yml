@@ -17,8 +17,8 @@ install:
   - npm --version
   - yarn --version
   - yarn config set child-concurrency 1
-  - yarn 
   - yarn add windows-build-tools --global
+  - yarn 
 
 build_script:
   - node --version

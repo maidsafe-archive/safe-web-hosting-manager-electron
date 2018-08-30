@@ -35,7 +35,6 @@ before_deploy:
 - export TOKEN="$GITHUB_AUTH_TOKEN" OWNER="MaidSafe" REPO="release_config"
 - export FILE="https://api.github.com/repos/$OWNER/$REPO/contents/safe_authenticator/log.toml"
 - curl -O "$FILE" -H "Authorization:token $TOKEN" -H "Accept:application/vnd.github.v3.raw"
-- yarn
 - yarn package
 - yarn post-package
 - export WEB_HOSTING_MANAGER="$(ls release/*.zip)";
