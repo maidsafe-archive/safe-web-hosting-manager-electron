@@ -4,10 +4,12 @@
 ### Changed
 - Upgrade Node JS to ^8.0.0
 - Upgrade electron to 1.8.4 which solves reported security vulnerabilities
-- Upgrade @maidsafe/safe-node-app to v0.8.1
+- Upgrade @maidsafe/safe-node-app to `dev` branch branch of safe_app_nodejs Github repo
+- WebId compatibility
+- CI config updated for new repository
 
 ### SAFE libraries dependencies
-- @maidsafe/safe-node-app: v0.8.1
+- @maidsafe/safe-node-app: https://github.com/maidsafe/safe_app_nodejs#dev
 
 ## [0.4.4] - 20-12-2017
 ### Changed
