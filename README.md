@@ -1,6 +1,5 @@
-# safe-web-hosting-manager-electron
-This example tutorial app show cases how to create and manage web services for Public ID on SAFE Network. Demonstrates the usage of MutableData API, NFS API, Authentication APIs.
-
+# SAFE Hosting Manager
+The tutorial app show cases how to create and manage web services for Public ID on SAFE Network. Demonstrates the usage of MutableData API, NFS API, Authentication APIs.
 
 ## Install
 
@@ -19,19 +18,23 @@ $ yarn
 ```
 Set `NODE_ENV=dev` to use Mock Vault. By deafult it uses Actual Network Or set `NODE_ENV=prod` to use Actual Network.
 
-## Run
+## Run Dev Mode
 
 ```bash
 $ yarn start
 ```
 
-To open application on development environment run `yarn dev`
+To open application on development environment run `yarn dev`.
+
+Note: Currently not working in osx.
 
 ### Authorising against Mock
 
 To simplify the auth process, as web-hosting can't received a response when running in dev mode.
 
 Run the app, and in the main menu, select `Simulate Mock Response`, and you're good to go.
+
+Alternatively, to run against a mock versio of the browser (after installing in a dev environment), you can trigger 'dev' libs via setting your env to be `NODE_ENV=test`.
 
 ## Packaging
 
@@ -49,11 +52,18 @@ yarn test
 
 Run `yarn rebuild-test` if there is Node Module Mismatch Error while running test, this will build the native modules for Nodejs. To build it back to Electron run `yarn rebuild`, now you can start the application.
 
+# License
 
-## License
+Licensed under either of
 
-This SAFE Network application is dual-licensed under the Modified BSD ([LICENSE-BSD](LICENSE-BSD) https://opensource.org/licenses/BSD-3-Clause) or the MIT license ([LICENSE-MIT](LICENSE-MIT) https://opensource.org/licenses/MIT) at your option.
+* the MaidSafe.net Commercial License, version 1.0 or later ([LICENSE](LICENSE))
+* the General Public License (GPL), version 3 ([COPYING](COPYING) or http://www.gnu.org/licenses/gpl-3.0.en.html)
 
-## Contribution
+at your option.
 
-Copyrights in the SAFE Network are retained by their contributors. No copyright assignment is required to contribute to this project.
+# Contribution
+
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the
+work by you, as defined in the MaidSafe Contributor Agreement, version 1.1 ([CONTRIBUTOR]
+(CONTRIBUTOR)), shall be dual licensed as above, and you agree to be bound by the terms of the
+MaidSafe Contributor Agreement, version 1.1.
