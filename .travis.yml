@@ -7,6 +7,7 @@ os:
 
 env:
 - NODE_ENV=prod
+- NODE_ENV=dev
 
 language: node_js
 

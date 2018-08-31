@@ -10,6 +10,10 @@ environment:
       win_runtime: win-x64
       arch: x64
       plat: win32
+    - NODE_ENV: "dev"
+      win_runtime: win-x64
+      arch: x64
+      plat: win32
 
 install:
   - ps: Install-Product node $env:nodejs_version x64
