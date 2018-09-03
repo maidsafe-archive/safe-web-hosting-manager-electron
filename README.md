@@ -8,7 +8,7 @@ The tutorial app show cases how to create and manage web services for Public ID 
 First, clone the repo via git:
 
 ```bash
-$ git clone https://github.com/maidsafe/safe_examples && cd safe_examples/web_hosting_manager
+$ git clone https://github.com/maidsafe/safe-web-hosting-manager-electron.git && cd safe-web-hosting-manager-electron
 ```
 
 And then install Node.js dependencies.
