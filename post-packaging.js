@@ -6,6 +6,8 @@ const archiver = require('archiver');
 const commandLineArgs = require('command-line-args')
 const crypto = require('crypto');
 const nodeFs = require('fs');
+const env = process.env.NODE_ENV || 'production';
+const isBuildingDev = /^dev/.test( env );
 
 const optionDefinitions = [
   { name: 'example', alias: 'e', type: String,defaultOption: true, defaultValue: 'web_hosting_manager' },
@@ -52,7 +54,13 @@ if (platform === WINDOWS ) {
   fs.ensureDirSync(dirForLog);
 }
 
-const RELEASE_FOLDER_NAME = `${pkgName}-v${pkg.version}-${PLATFORM_NAME}-x64`;
+let devModifier = '';
+if( isBuildingDev )
+{
+    devModifier = '-dev'
+}
+
+const RELEASE_FOLDER_NAME = `${pkgName}-v${pkg.version}-${PLATFORM_NAME}-x64${devModifier}`;
 
 
 

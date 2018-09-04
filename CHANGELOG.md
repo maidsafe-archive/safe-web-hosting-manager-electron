@@ -7,6 +7,7 @@
 - Upgrade @maidsafe/safe-node-app to `dev` branch branch of safe_app_nodejs Github repo
 - WebId compatibility
 - CI config updated for new repository
+- CI config to release mock builds
 
 ### Fixed
 - Readme instructions
