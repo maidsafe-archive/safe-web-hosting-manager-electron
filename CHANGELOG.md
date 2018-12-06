@@ -1,6 +1,13 @@
 # SAFE Hosting Manager App Change Log
 
-## [Unreleased]
+## [0.5.1] - 6-12-2018
+### Changed
+- Upgrade `@maidsafe/safe-node-app` to v0.10.1
+
+### SAFE libraries dependencies
+- @maidsafe/safe-node-app: v0.10.1
+
+## [0.5.0] - 12-9-2018
 ### Changed
 - Upgrade Node JS to ^8.0.0
 - Upgrade electron to 1.8.8 which solves reported security vulnerabilities
