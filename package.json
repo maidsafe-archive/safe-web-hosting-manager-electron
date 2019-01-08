@@ -182,7 +182,7 @@
     "webpack": "^4.28.3",
     "webpack-bundle-analyzer": "^2.8.2",
     "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "<3.1.11",
+    "webpack-dev-server": "3.1.14",
     "webpack-merge": "^4.1.0"
   },
   "dependencies": {
