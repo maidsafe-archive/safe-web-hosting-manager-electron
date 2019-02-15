@@ -34,7 +34,7 @@ To simplify the auth process, as web-hosting can't received a response when runn
 
 Run the app, and in the main menu, select `Simulate Mock Response`, and you're good to go.
 
-Alternatively, to run against a mock versio of the browser (after installing in a dev environment), you can trigger 'dev' libs via setting your env to be `NODE_ENV=test`.
+Alternatively, to run against a mock version of the browser (after installing in a dev environment), you can trigger 'dev' libs via setting your env to be `NODE_ENV=test`.
 
 ## Packaging
 
