@@ -3,7 +3,7 @@ import CONSTANTS from '../constants';
 
 // domain check for public name and service name
 export const domainCheck = (str) => {
-  const regex = /^[a-z0-9][a-z0-9-]{1,60}[a-z0-9](?:)+$/;
+  const regex = /^[a-z0-9]{1,62}(?:)+$/;
   return regex.test(str);
 };
 
