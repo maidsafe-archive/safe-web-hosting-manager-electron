@@ -1,6 +1,8 @@
 # SAFE Hosting Manager
 The tutorial app show cases how to create and manage web services for Public ID on SAFE Network. Demonstrates the usage of MutableData API, NFS API, Authentication APIs.
 
+**Note this tutorial app is no longer maintained. For the latest on the SAFE Network project please see [safenetwork.tech](https://safenetwork.tech/) or our community forum [safenetforum.org](https://safenetforum.org/)**
+
 ## Install
 
 * **Note: requires a node version ^8.0.0 and an npm version ^5.0.0**
