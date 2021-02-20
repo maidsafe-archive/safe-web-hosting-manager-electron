@@ -1,5 +1,12 @@
 # SAFE Hosting Manager App Change Log
 
+## [Unreleased]
+### Changed
+- Remove the requirement of min 3 characters for public names and service names
+
+### SAFE libraries dependencies
+- @maidsafe/safe-node-app: v0.10.1
+
 ## [0.5.1] - 6-12-2018
 ### Changed
 - Upgrade `@maidsafe/safe-node-app` to v0.10.1
